@@ -1,6 +1,44 @@
 # Common proprietary files - from Samsung package version P610XXU2BTJ5, unless pinned
 
-### BLUETOOTH
+## Audio
+vendor/etc/default_volume_tables.xml
+vendor/etc/dolby/dax-default.xml
+vendor/etc/mixer_gains_cs47l15.xml
+vendor/etc/mixer_paths.xml
+vendor/etc/mixer_paths_cs47l15.xml
+vendor/etc/usb_audio_policy_configuration.xml
+vendor/lib/hw/sound_trigger.primary.universal9611.so
+vendor/lib/vndk/libtinyalsa.so
+vendor/lib/vndk/libaudioroute.so
+vendor/lib/libsamsungDiamondVoice.so
+vendor/lib/libSamsungPostProcessConvertor.so
+vendor/lib/lib_SamsungRec_07001.so
+vendor/lib/lib_SoundAlive_SRC384_ver320.so
+vendor/lib/lib_soundaliveresampler.so
+vendor/lib/libaboxpcmdump.so
+vendor/lib/libalsautils_sec.so
+vendor/lib/libaudio_soundtrigger.so
+vendor/lib/libaudioproxy.so
+vendor/lib/libdatamod.so
+vendor/lib/libfloatingfeature.so
+vendor/lib/libprofileparamstorage.so
+vendor/lib/librecordalive.so
+vendor/lib/libsecaudiocoreutils.so
+vendor/lib/libsecaudioinfo.so
+vendor/lib/soundfx/libaudioeffectoffload.so
+vendor/lib64/libfloatingfeature.so
+vendor/lib64/libsecaudioinfo.so
+vendor/lib64/soundfx/libaudioeffectoffload.so
+
+## Audio Firmware
+vendor/firmware/APBargeIn_AUDIO_SLSI.bin
+vendor/firmware/APBiBF_AUDIO_SLSI.bin
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/SoundBoosterParam.bin
+vendor/firmware/calliope_iva.bin
+vendor/firmware/dax_param.bin
+
+## Bluetooth
 # Bluetooth (aptX) - from crosshatch - QP1A.190711.020
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 
